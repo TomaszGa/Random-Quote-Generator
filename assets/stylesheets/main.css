@@ -1,0 +1,93 @@
+/* 
+Extra small devices (portrait phones, less than 544px) 
+*/
+    h1 {font-size:1.8rem;} /*1rem = 16px*/
+    h3 {font-size:1.4rem;}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    h1 {font-size:2rem;} /*1rem = 16px*/
+    h3 {font-size:1.8rem;}
+    
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    h1 {font-size:2.3rem;} /*1rem = 16px*/
+    h3 {font-size: 2rem;}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1 {font-size 0.3rem;} /*1rem = 16px*/
+    h3 {font-size:2.3rem;}
+    
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    h1 {font-size:3.8rem;} /*1rem = 16px*/
+    h3 {font-size:2.3rem;}
+}
+/* CUSTOM */
+body{
+    background-color: #EFDAE0;
+    color: #F1EFEE;
+    box-sizing: border-box;
+    font-family: "courier new";
+    font-weight: 900;
+    text-align: center
+}
+a{
+    color: #F1EFEE;
+}
+a:hover{
+    color: #F1EFEE;
+}
+footer{
+    background-color: #DDB1C2;
+    margin-top: 10px;
+    border-top: 4px double;
+}
+h1{
+    font-weight: 800;
+    border-bottom: 4px double;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+
+
+.quote-box{
+    padding: 10px 15px 5px 15px;
+    text-align: left;
+    min-height: 200px;
+}
+.author{
+    text-align: right;
+    font-size: 18px;
+}
+.btn {
+    border-radius: 1px;
+    color: #F1EFEE;
+    display: inline-block;
+    background-color: #C68AA2;
+    font-family: "Montserrat";
+    font-weight 400;
+    text-transform: uppercase;
+    border: 4px double;
+}
+.main-box{
+    margin-top: 5%;
+    padding: 5px 50px 40px 50px;
+    border: 4px double;
+    background-color: #DDB1C2;
+}
