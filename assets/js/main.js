@@ -5,7 +5,7 @@ $(document).ready(function () {
         cache:false
     });
     
-    $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(json){
+    $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(json){
       var htmlString = "";
       var linkString = "";
       //remove unnecessary formating from the json content
@@ -18,7 +18,7 @@ $(document).ready(function () {
     });
 
     $("#getMessage").click(function(){
-         $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(json){
+         $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(json){
       var htmlString = "";
       var linkString = "";
       //remove unnecessary formating from the json content
